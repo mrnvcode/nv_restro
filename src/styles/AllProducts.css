@@ -1,0 +1,94 @@
+.allProductsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    padding-bottom: 1rem;
+  }
+  
+  .allProductsPage h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    background-color: #222; /* Dark background color for h2 */
+    color: white; /* White font color */
+    padding: 1rem 2rem; /* Add padding for better readability */
+  }
+  
+  .productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem; /* Add margin at the top */
+  }
+  
+  .productContainer {
+    width: calc(25% - 20px); /* 25% width for each product container with 20px gutter */
+    margin-bottom: 40px; /* Increased margin to add space between products */
+    position: relative;
+  }
+  
+  .productCard {
+    width: 100%;
+    border: 1px solid #ddd; /* Add border for a 3D effect */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    transition: transform 0.3s ease; /* Add smooth transition */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Add some margin between each card */
+  }
+  
+  .productCard:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+  }
+  
+  .productImage {
+    width: 100%;
+    height: 200px; /* Set maximum height for the image */
+    object-fit: cover;
+    border-top-left-radius: 10px; /* Rounded corners for image */
+    border-top-right-radius: 10px;
+  }
+  
+  .productBody {
+    padding: 1rem; /* Add padding for better spacing */
+    text-align: center; /* Center align text */
+  }
+  
+  .productTitle {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0; /* Remove default margin */
+    margin-bottom: 0.5rem; /* Add some space between title and description */
+  }
+  
+  .productDescription {
+    font-size: 1rem;
+    margin: 0; /* Remove default margin */
+    margin-bottom: 1rem; /* Add some space between description and price */
+  }
+  
+  .productPrice { 
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .addToCartButton {
+    width: 50%; /* Adjust button width */
+    margin: auto; /* Center align button horizontally */
+    background-color: #007bff; /* Blue button background color */
+    color: white; /* White button font color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    padding: 1rem; /* Add padding for better appearance */
+    font-size: 1rem; /* Adjust font size */
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .addToCartButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  

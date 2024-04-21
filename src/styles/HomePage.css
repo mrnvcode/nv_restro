@@ -1,0 +1,30 @@
+.homePage {
+    background-image: url('https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?cs=srgb&dl=pexels-chan-walrus-958545.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 2rem;
+  }
+  
+  .hp_header {
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.75); /* Dark background color with 75% transparency */
+    color: #ffffff; /* White font color */
+    padding: 2rem;
+  }
+  
+  .hp_header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hp_header p {
+    font-size: 1.2rem;
+  }
+  
